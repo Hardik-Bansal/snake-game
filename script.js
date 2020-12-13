@@ -158,7 +158,7 @@ button.addEventListener('click', function (){
 
 
 //start again feature
-let button2 = document.createElement('button');
+/*let button2 = document.createElement('button');
 button2.textContent = 'Start Again';
 document.body.appendChild(button2);
 button2.setAttribute('style', `position: absolute;
@@ -170,4 +170,4 @@ button2.setAttribute('style', `position: absolute;
 	background: lightgreen;
 	color: green;
 	border: 1px solid red;`);
-button2.addEventListener('click', draw);
+button2.addEventListener('click', draw);*/
