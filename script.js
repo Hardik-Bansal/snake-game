@@ -139,7 +139,7 @@ function draw(){
 let game = setInterval(draw, 100);
 
 //local storage feature
-/*let button = document.createElement('button');
+let button = document.createElement('button');
 button.textContent = 'Clear All';
 document.body.appendChild(button);
 button.setAttribute('style', `position: absolute;
@@ -154,11 +154,11 @@ button.setAttribute('style', `position: absolute;
 
 button.addEventListener('click', function (){
 	localStorage.clear();
-});*/
+});
 
 
 //start again feature
-/*let button2 = document.createElement('button');
+let button2 = document.createElement('button');
 button2.textContent = 'Start Again';
 document.body.appendChild(button2);
 button2.setAttribute('style', `position: absolute;
@@ -170,4 +170,5 @@ button2.setAttribute('style', `position: absolute;
 	background: lightgreen;
 	color: green;
 	border: 1px solid red;`);
-button2.addEventListener('click', draw);*/
+button2.addEventListener('click', draw);
+
